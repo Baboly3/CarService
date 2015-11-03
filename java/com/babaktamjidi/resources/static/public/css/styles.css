@@ -1,0 +1,329 @@
+form .error {
+	color: #A94442;
+	font-weight: bold;
+}
+
+Body {
+	background: url(../images/carservice.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+strong {
+color: rgb(58, 169, 130);
+}
+
+td.rowlink-skip.cartbl {
+	display: flow;
+}
+
+button.btn.btn-success.but {
+	margin-right: 5px;
+}
+
+.butblu {
+	background-color: rgba(66, 139, 202, 0.73);
+	border-color: rgba(66, 139, 202, 0.73);
+}
+
+
+.color{
+	
+	background-color:   rgba(65, 159, 240, 0.84);
+}
+
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: rgba(65, 159, 240, 0.84);
+	border-color:  rgba(65, 159, 240, 0.84);
+}
+
+.butdel {
+	margin-left: 20px;
+	background-color: rgba(217, 83, 79, 0.7);
+	border-color: #992925;
+	color: #A9A9A9;
+}
+
+.UImessage {
+	text-align: center;
+	background-color: green;
+}
+
+.btn-success {
+	color: #A9A9A9;
+	background-color: #31765C;
+	border-color: #318631;
+}
+
+/*container color  */
+.black {
+	background-color: black;
+	padding: inherit;
+	border-radius: 32px;
+}
+
+.blacktable {
+	background-color: black;
+	padding: inherit;
+	margin-bottom: 20px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control
+	{
+	border: 2px solid #2C5F4A;
+	background-color: #004F4C;
+	text-align: center;
+}
+
+.form-control {
+	border: 2px solid #2C5F4A;
+	background-color: #004F4C;
+	text-align: center;
+	color: rgba(238, 232, 170, 0.78);
+}
+
+label.btn.btn-default {
+	border: 2px solid #2C5F4A;
+	background-color: #004F4C;
+	text-align: center;
+	color: rgba(238, 232, 170, 0.78);
+}
+
+label.btn.btn-default.active {
+	border: 2px solid rgba(93, 200, 168, 0.64);
+	background-color: #136C4E;
+	text-align: center;
+	color: rgba(170, 238, 235, 0.78);
+}
+
+.form-control:focus {
+	border-color: rgba(93, 200, 168, 0.64);
+	
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.but {
+	color: #A9A9A9;
+	background-color: #215442;;
+	border-color: #215442;
+}
+
+
+/* Panel Start  */
+.selecta {
+	background-color: palegoldenrod;
+	color: #000;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.btn-default:hover, .btn-default:focus, .btn-default:active,
+	.btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: palegoldenrod;
+}
+
+.bbk {
+	margin-left: -7px;
+}
+
+input[type=date] {
+	line-height: 10px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#submit {
+	margin-top: 10px;
+}
+
+.panel-default>.panel-heading {
+	color: rgba(186, 189, 92, 0.7);
+	text-align: center;
+	background-color: rgba(48, 103, 103, 0.62);
+	border-color: inherit;
+	border-top-right-radius: inherit;
+	border-top-left-radius: inherit;
+
+	/* color: rgba(186, 189, 92, 0.7);
+	text-align: center;
+	background-color: rgba(48, 103, 103, 0.5);
+	border-color: inherit;
+	border-top-right-radius: inherit;
+	border-top-left-radius: inherit; */
+}
+
+.panel {
+	border-radius: 32px;
+	background-color: rgba(65, 160, 124, 0.43);
+	color: darkgrey;
+	text-align: center;
+	border-color: black;
+	margin-bottom: 0px;
+
+	/* border-radius: 32px;
+	background-color: rgba(65, 160, 124, 0.37);
+	color: darkgrey;
+	text-align: center;
+	border-color: black; */
+}
+
+/* Panel END  */
+
+/* Modal START */
+.modal-content {
+	border-radius: 32px;
+	background-color: rgba(65, 160, 124, 0.43);
+	color: darkgrey;
+	text-align: center;
+	border-color: black;
+}
+
+.modal-header {
+	color: rgba(186, 189, 92, 0.7);
+	text-align: center;
+	background-color: rgba(48, 103, 103, 0.62);
+	border-color: inherit;
+	border-top-right-radius: inherit;
+	border-top-left-radius: inherit;
+}
+
+.sub {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Modal END  */
+
+/* Table CSS START */
+.container.blacktable {
+	display: table;
+}
+
+td.rowlink-skip {
+	display: flex;
+}
+
+.table {
+	background-color: rgba(65, 160, 124, 0.27);
+	color: darkgrey;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.linkRow:hover {
+	color: rgba(238, 232, 170, 0.78);
+	text-decoration: none;
+}
+
+.linkRow {
+	color: rgba(238, 232, 170, 0.78);
+}
+
+th {
+	/* 	background-color: rgba(48, 103, 103, 0.62); */
+	background-color: rgba(163, 97, 73, 0.43);
+	/* 	color: rgb(186, 189, 92); */
+	color: rgba(186, 189, 92, 0.89);
+	border-top-width: inherit;
+	text-align: center;
+}
+
+.table>thead:first-child>tr:first-child>th {
+	border-top: 
+}
+
+
+.table-hover.rowlink tr:hover td, .table-hover .rowlink tr:hover td {
+	/* background-color: rgba(170, 238, 204, 0.39); */
+	background-color: rgba(170, 238, 204, 0.09);
+	color: rgba(238, 232, 170, 0.78);
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th,
+	.table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td,
+	.table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+	border: 2px solid rgba(99, 145, 117, 0.25);
+}
+
+.table-bordered {
+	border: 2px solid rgba(99, 145, 117, 0.56);
+}
+
+#carDTO {
+	display: inline;
+}
+
+form#customerDTO {
+	display: inline;
+}
+
+/* Table CSS END */
+
+/* NAVBAR START  */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: black;
+}
+
+.dropdown-menu .divider {
+	background-color: rgba(57, 174, 174, 0.62);
+}
+
+ul.dropdown-menu {
+	background-color: rgba(30, 119, 86, 0.55);
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: rgba(170, 238, 204, 0.39);
+	color: palegoldenrod;
+}
+
+.dropdown-menu>li>a {
+	color: ghostwhite;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover,
+	.navbar-default .navbar-nav>.open>a:focus {
+	background-color: black;
+	color: rgb(14, 242, 155);
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+	{
+	color: palegoldenrod;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+	{
+	color: palegoldenrod;
+}
+
+.navbar-default .navbar-brand {
+	color: darkgrey;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: darkgrey;
+}
+
+.navbar {
+	background-color: black;
+	border-radius: 30px;
+}
+
+nav.navbar.navbar-default {
+	border-color: rgba(65, 160, 124, 0.55);
+	border-style: solid;
+	border-width: thick;
+}
+
+/* NAVBAR END  */
